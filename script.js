@@ -1,14 +1,15 @@
+
 function fibonacci(num) {
 	if(num==0) return 0;
 	if(num==1) return 1;
 	let first  = 0 ;
 	let secno  = 1 ;
 	let third; 
-	while(num>1){
+	for(let i=2; i<=num; i++ ){
 		third = first + secno;
 		first = secno;
 		secno = third;
-		num--;
+		10
 	}
 	return secno;
 }
