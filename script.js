@@ -5,11 +5,11 @@ function fibonacci(num) {
 	let first  = 0 ;
 	let secno  = 1 ;
 	let third; 
-	for(let i=2; i<=num; i++ ){
+	while(num>1){
 		third = first + secno;
 		first = secno;
 		secno = third;
-		10
+		num--;
 	}
 	return secno;
 }
